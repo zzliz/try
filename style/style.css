@@ -1,8 +1,45 @@
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: flex-end;
-    justify-content: space-evenly;
-    align-items: center;
+header{
+    /*background-color: rgb(113, 143, 106);*/
+    padding: 0px;
+    text-align: center;
+    margin: 5px;
+   
+}
+
+
+aside{
+    float: right;
+    background-image: linear-gradient(0deg, #ecbd50 0%, #8b68c7 80%, #3c0762 100%);
+    width: 305px;
+    height: 545px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 25px;
+    border: 4px,solid, white;
+
+
+}
+
+
+section{
+    float:left;
+    background-color:rgb(9, 13, 9);
+    width:880px;
+    height: 550px;
+    margin: 5px
+}
+
+
+footer{
+    float:left;
+    background-color:rgb(33, 32, 20);
+    width:72%;
+    margin: 5px;
+    line-height: 50px;
+    color:#e9df71
+}
+body{
+    background-image: linear-gradient(0deg, #330774 0%, #8b68c7 35%, #e9df71 100%);
+    margin-left: 10%;
+    margin-right: 10%;
 }
